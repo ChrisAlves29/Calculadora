@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+.calculadora {
+    background: #ebebebb5;
+    width: 300px;
+    border: rgb(255, 255, 255) 1px solid;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 9px;
+
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+td {
+    width: 50px;
+    height: 50;
+    background: rgb(223, 223, 223);
+    color: black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: white;
+}
+
+.display {
+    background: white;
+    color: black;
+    width: 95%;
+    height: 37px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: right;
+   padding: 19px 10px 6px 10px;
+   overflow: auto;
+font-weight: bold;
+}
+.superior{
+    color: darkgreen;
+}
+.inferior{
+    color: crimson;
+}
